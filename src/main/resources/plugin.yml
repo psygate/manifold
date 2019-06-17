@@ -1,0 +1,11 @@
+name: manifold
+version: 0.1
+description: A player spawn plugin
+author: psygate
+main: com.psygate.minecraft.spigot.sovereignty.manifold.Manifold
+
+commands:
+  forcededicate:
+    description: Forces a player to be dedicated.
+    usage: /forcededicate <playername> <true|false>
+    default: op
